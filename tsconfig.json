@@ -20,9 +20,6 @@
   "include": [
     "./src/**/*"
   ],
-  "folders": [
-    "./src/modules/vtex/create-config-project/config"
-  ],
   "typeRoots": ["node_modules/@types"],
   "exclude": [
     "node_modules"

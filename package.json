@@ -1,30 +1,28 @@
 {
-  "name": "exito",
-  "version": "2.8.1",
-  "description": "Commands to work more fast with vtex and aws",
+  "name": "toolbet",
+  "version": "0.1.0",
+  "description": "",
   "main": "lib/src/index.js",
   "bin": "lib/src/index.js",
   "scripts": {
     "ts": "tsc",
     "ts-watch": "tsc --watch",
-    "copy": "ncp resources lib/src/modules/vtex/create-config-project/resources/",
     "watch-ts": "tsc -w",
     "prepublish": "npm run ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grupo-exito-ecommerce/exito-cli-ts"
+    "url": ""
   },
   "keywords": [
-    "exito",
     "cli"
   ],
-  "author": "Grupo Exito Ecommerce",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/grupo-exito-ecommerce/exito-cli-ts/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/grupo-exito-ecommerce/exito-cli-ts#readme",
+  "homepage": "",
   "devDependencies": {
     "@types/configstore": "^4.0.0",
     "@types/fs-extra": "^5.0.5",
