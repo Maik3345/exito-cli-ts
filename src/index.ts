@@ -20,7 +20,7 @@ const run = (command: any) =>
   );
 
 const logToolbeltVersion = () => {
-  logger.debug(`Exito version: ${pkg.version}`);
+  logger.debug(`Toolbet version: ${pkg.version}`);
 };
 
 const main = async () => {
