@@ -1,7 +1,7 @@
 {
     "name": "scripts",
     "version": "1.0.0",
-    "description": "Utility scripts for the Exito CLI platform",
+    "description": "",
     "main": "index.ts",
     "license": "MIT",
     "dependencies": {

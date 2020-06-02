@@ -27,10 +27,13 @@ const main = async () => {
   const args = process.argv.slice(2);
 
   logToolbeltVersion();
-
   const command = await find(tree, without([VERBOSE], args));
-
-  await run(command);
+  console.log(command);
+  try {
+    await run(command);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const onError = (e: string) => {
