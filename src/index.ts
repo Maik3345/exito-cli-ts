@@ -28,12 +28,7 @@ const main = async () => {
 
   logToolbeltVersion();
   const command = await find(tree, without([VERBOSE], args));
-  console.log(command);
-  try {
-    await run(command);
-  } catch (error) {
-    console.log(error);
-  }
+  await run(command);
 };
 
 const onError = (e: string) => {
